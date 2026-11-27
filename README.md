@@ -2,7 +2,7 @@
 
 Proyecto de visión por computadora que toma un video lateral de una sentadilla y estima, sin marcadores corporales, ángulos, fases y repeticiones en 2D.
 
-> Los resultados son estimaciones para apoyar la observación. **No son un diagnóstico.**
+> Los resultados son estimaciones para apoyar la observación. **No son un diagnóstico.** y estos fueron mostrados en la presentación. 
 
 ## Qué hace
 
