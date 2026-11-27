@@ -1,0 +1,5 @@
+Flask
+qrcode[pil]
+imageio-ffmpeg
+Werkzeug
+matplotlib
