@@ -35,32 +35,6 @@ El umbral de ±10° es un criterio heurístico del prototipo, no una norma clín
 | `kinematics.py` | Cinemática horizontal de la marcha (posición, distancia, velocidad), del enfoque inicial. No participa en el análisis actual | Referencia |
 | `docs/presentacion.pdf` | Presentación del proyecto | — |
 
-## Archivos pendientes
-
-`web_app.py` necesita estos elementos, que **todavía no están en el repositorio**:
-
-- `pose_tracker.py` (detecta la pose y genera los resultados)
-- carpeta `web/` (`index.html`, `manifest.webmanifest`, `sw.js`, `assets/`)
-
-Sin ellos la aplicación web no funciona. `requirements.txt` tampoco incluye aún las librerías de `pose_tracker.py`.
-
-## Instalación y uso (Windows)
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-python web_app.py --host 127.0.0.1
-```
-
-Abre `http://127.0.0.1:8000` en el navegador.
-
-Para entrar desde un teléfono en la misma red Wi-Fi, ejecuta `python web_app.py` (sin `--host`). La cámara y la instalación en Android necesitan HTTPS, con las opciones `--cert-file` y `--key-file`.
-
-**Seguridad:** sin HTTPS, las contraseñas viajan sin cifrar por la red. Usa el acceso desde el teléfono solo en una red de confianza y nunca subas certificados ni claves al repositorio.
-
-Los datos se guardan en `%LOCALAPPDATA%\SquatLab`.
-
 ## Límites
 
 - Una sola cámara lateral y fija: no evalúa valgo frontal, profundidad real ni simetría completa.
