@@ -73,10 +73,6 @@ Validar ángulos y fases contra una medición de referencia, y evaluar una cáma
 
 ## Autores
 
-- Carlos Andrés Puentes Chica
-- Juan José Mayorga Vergano
-- Andrés Felipe Tinjacá Segura
-- José David Vargas Vargas
 - Juan Manuel Olaya Manrique
 - Brayan Esteban Santamaría Pulgarim
 
